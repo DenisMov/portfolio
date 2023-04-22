@@ -1,0 +1,36 @@
+.skills {
+    padding-top: 120px;
+    padding: 120px 10px 0px 10px;
+    &__column {
+        padding-top: 60px;
+        margin-bottom: 0;
+        display: grid;
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
+        grid-auto-rows: 270px;
+        gap: 13px;
+        justify-content: center;
+        &-title {
+            border-color: black;
+            padding-top: 20px;
+        }
+        li {
+            list-style-type: none;
+        }
+        ul {
+            margin-bottom: 0;
+        }
+        &-block {
+            min-height: 275px;
+            padding: 30px 30px 25px ; 
+            border: solid;
+            border-width: 2px;
+        }
+        &-text {
+            padding-top: 20px;
+            font-size: 12px;
+            line-height: 18px;
+            font-family: 'Poppins';
+        }
+        
+    }
+}
